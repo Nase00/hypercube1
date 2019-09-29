@@ -951,7 +951,8 @@
  * By default the firmware assumes HIGH=FILAMENT PRESENT.
  */
 #define FILAMENT_RUNOUT_SENSOR
-#define FIL_RUNOUT_PIN 11 // https://reprap.org/wiki/RAMPS_1.6
+// https://reprap.org/wiki/RAMPS_1.6
+#define FIL_RUNOUT_PIN 65
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
   #define NUM_RUNOUT_SENSORS   1     // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
   #define FIL_RUNOUT_INVERTING false // set to true to invert the logic of the sensor.
